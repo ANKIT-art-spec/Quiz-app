@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats!</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body background = https://static9.depositphotos.com/1554103/1115/i/600/depositphotos_11155153-stock-photo-magenta-background-vivezium-theme-of.jpg>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+           <h1>Final Score</h1>
+           <h2 id="finalScore"></h2>
+           <form>
+               <input type="text" name="username" id="username" placeholder="username">
+               <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled><b>Save</b></button>
+           </form>
+           <a href="/game.html" class="btn"><b>Play Again</b></a>
+           <a href="/index.html" class="btn"><b>Go Home</b></a>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>
